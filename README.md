@@ -16,10 +16,10 @@ A few resources to get you started if this is your first Flutter project:
 
 ## Screenshots
 
-<img src='https://github.com/byron94odhimbo/cloudwage/screenshots/splash.jpg' align='left' width='25%'>
-<img src='https://github.com/byron94odhimbo/cloudwage/screenshots/login.jpg' align='left' width='25%'>
-<img src='https://github.com/byron94odhimbo/cloudwage/screenshots/home.jpg' align='left' width='25%'>
-<img src='https://github.com/byron94odhimbo/cloudwage/screenshots/payslips.jpg' align='left' width='25%'>
-<img src='https://github.com/byron94odhimbo/cloudwage/screenshots/loans.jpg' align='left' width='25%'>
-<img src='https://github.com/byron94odhimbo/cloudwage/screenshots/advances.jpg' align='left' width='25%'>
+<img src='https://github.com/Byron94odhiambo/cloudwage/blob/main/screenshots/advances.jpg' align='left' width='25%'>
+<img src='https://github.com/Byron94odhimbo/cloudwage/screenshots/login.jpg' align='left' width='25%'>
+<img src='https://github.com/Byron94odhimbo/cloudwage/screenshots/home.jpg' align='left' width='25%'>
+<img src='https://github.com/Byron94odhimbo/cloudwage/screenshots/payslips.jpg' align='left' width='25%'>
+<img src='https://github.com/Byron94odhimbo/cloudwage/screenshots/loans.jpg' align='left' width='25%'>
+<img src='https://github.com/Byron94odhimbo/cloudwage/screenshots/advances.jpg' align='left' width='25%'>
 
