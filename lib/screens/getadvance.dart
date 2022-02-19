@@ -20,7 +20,8 @@ class GetAdvance extends StatelessWidget {
                     padding: EdgeInsets.symmetric(horizontal: 25, vertical: 35),
                     child: Text(
                       'Get Advance',
-                      style: TextStyle(fontSize: 24),
+                      style:
+                          TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                     )),
               ],
             ),

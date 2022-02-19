@@ -22,7 +22,8 @@ class Payslip extends StatelessWidget {
                           EdgeInsets.symmetric(horizontal: 8, vertical: 35),
                       child: Text(
                         'My Payslips',
-                        style: TextStyle(fontSize: 24),
+                        style: TextStyle(
+                            fontSize: 24, fontWeight: FontWeight.bold),
                       )),
                 ],
               ),
