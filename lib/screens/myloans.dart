@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cloudwage/screens/getloan.dart';
 
 class MyLoans extends StatelessWidget {
   const MyLoans({Key? key}) : super(key: key);
@@ -14,15 +15,32 @@ class MyLoans extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: const <Widget>[
-                Padding(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 8, vertical: 35),
                     child: Text(
                       'My Loans',
                       style:
                           TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                     )),
+                TextButton(
+                  child: const Text(
+                    'Get Loan',
+                    style: TextStyle(fontSize: 14, color: Colors.white),
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const GetLoan()),
+                    );
+                  },
+                  style: ButtonStyle(
+                      padding: MaterialStateProperty.all<EdgeInsets>(
+                          const EdgeInsets.all(10)),
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(Colors.blueAccent)),
+                ),
               ],
             ),
             Row(

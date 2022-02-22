@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cloudwage/screens/getadvance.dart';
 
 class MyAdvances extends StatelessWidget {
   const MyAdvances({Key? key}) : super(key: key);
@@ -14,15 +15,33 @@ class MyAdvances extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: const <Widget>[
-                Padding(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 15, vertical: 35),
                     child: Text(
                       'My Advances',
                       style:
                           TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                     )),
+                TextButton(
+                  child: const Text(
+                    'Get Advance',
+                    style: TextStyle(fontSize: 14, color: Colors.white),
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const GetAdvance()),
+                    );
+                  },
+                  style: ButtonStyle(
+                      padding: MaterialStateProperty.all<EdgeInsets>(
+                          const EdgeInsets.all(10)),
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(Colors.blueAccent)),
+                ),
               ],
             ),
             Row(
