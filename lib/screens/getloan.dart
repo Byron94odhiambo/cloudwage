@@ -99,7 +99,7 @@ class GetLoan extends StatelessWidget {
                   child: TextButton(
                     child: const Text(
                       'Submit Application',
-                      style: TextStyle(fontSize: 18, color: Colors.white),
+                      style: TextStyle(fontSize: 14, color: Colors.white),
                     ),
                     onPressed: null,
                     style: ButtonStyle(
