@@ -2,7 +2,7 @@
 
 #PAYROLL MANAGEMENT SYSTEM 
 
-A Flutter  payroll management UI project.
+A Flutter  payroll management mobile UI project.
 
 
 
